@@ -1,7 +1,20 @@
-node_modules
-
+node_modules/
 dev
-
 .cache
-
 .sonarlint
+.DS_Store
+yarn.lock
+coverage
+.nyc_output
+dist
+lib
+.vscode/
+.idea/
+*.min.js
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+tmp
