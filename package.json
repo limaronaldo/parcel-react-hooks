@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html  -d dev",
+    "start": "parcel src/index.html  -d dev -p 8080",
     "build": "parcel build src/index.html"
   },
   "devDependencies": {
@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "react": "16.7.0-alpha.2",
-    "react-dom": "16.7.0-alpha.2"
+    "react-dom": "16.7.0-alpha.2",
+    "react-hot-loader": "^4.6.3"
   },
-  "repository":  "https://github.com/limaronaldo/parcel-react-hooks.git"
+  "repository": "https://github.com/limaronaldo/parcel-react-hooks.git"
 }
